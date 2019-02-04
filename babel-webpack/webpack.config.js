@@ -1,4 +1,6 @@
 
+const babelOptions = require('./babel.config')
+
 module.exports = {
     mode: "development",
     resolve: {
@@ -10,17 +12,7 @@ module.exports = {
             test: [/\.jsx?$/, /\.tsx?$/],
             use: {
                 loader: 'babel-loader',
-                options: {
-                    "presets": [
-                        "@babel/env",     
-                        "@babel/preset-react",
-                        "@babel/preset-typescript"
-                    ],
-                    "plugins": [
-                        "@babel/proposal-class-properties",
-                        "@babel/proposal-object-rest-spread"
-                    ]
-                }
+                options: babelOptions,
             },
             exclude: /node_modules/
             
