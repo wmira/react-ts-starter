@@ -1,8 +1,9 @@
 
 import * as React from "react";
-import TestRenderer, { ReactTestInstance } from "react-test-renderer";
+import TestRenderer from "react-test-renderer";
 import { App } from "./App";
 
+// you should probably use react-testing-library
 describe("<App/>", () => {
     it("renders greeting specified in prop", () => {
         const underTest = TestRenderer.create(<App greeting="banana" />);
