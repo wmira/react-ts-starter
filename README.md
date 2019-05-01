@@ -1,5 +1,13 @@
-# react-starter
+# react-ts-starter
 
-## babel-webpack
+These are various skeleton projects for starting typescript development
 
-This is starter kit using babel 7 and webpack.
+# babel-webpack
+
+A project that uses babel to transpile ts to js.
+
+
+# Typescript Project Reference 
+
+A sample monorepo that has sub-modules. Uses typescript project references to have one top level type check compilation
+for all the modules.
