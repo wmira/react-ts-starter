@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {    
+    "baseUrl": "../lib",
+    "rootDir": "src",
+    "target": "es6",
+    "moduleResolution": "node",
+    "noEmit": false,      
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "outDir": "../lib/frontend1",
+    "tsBuildInfoFile": "../lib.cache/frontend1.tsbuildinfo"
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    { "path": "../core" },
+    { "path": "../module1" }
+  ]
+}

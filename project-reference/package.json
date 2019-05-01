@@ -1,0 +1,16 @@
+{
+  "name": "project-reference",
+  "version": "1.0.0",
+  "description": "Typescript Project Reference",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --build",
+    "watch:types": "tsc --build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}

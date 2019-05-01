@@ -1,0 +1,9 @@
+{  
+  "include": [],
+  "files": [],
+  "references": [
+    { "path": "core"},
+    { "path": "module1"},
+    { "path": "frontend1"},
+  ]
+}
