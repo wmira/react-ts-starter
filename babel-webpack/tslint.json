@@ -5,6 +5,8 @@
         "tslint-react"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+      "semicolon": [false, "never"]
+    },
     "rulesDirectory": []
 }
